@@ -11,3 +11,7 @@ function hide() {
 function show() {
     div.style.display = "block";
 }
+
+div.onmoussenter = function () {
+    div.style.background = 'red';
+}
