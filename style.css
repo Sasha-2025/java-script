@@ -1,16 +1,22 @@
-h2{
+body {
     text-align: center;
 }
 
-.rectangle{
-    border: 1px solid black;
-    width: 200px;
-    height: 200px;
-    margin: auto;
+nav {
+    background-color: #e6e6e6;
+    padding: 10px;
 }
 
-.button{
-    padding: 20px;
-    width: 200px;
-    margin: auto;
+ul {
+    list-style-type: none;
+}
+
+li {
+    float: left;
+}
+li a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
 }
